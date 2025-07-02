@@ -1,0 +1,14 @@
+1. Does Java support multiple inheritance?
+    - Java does NOT support multiple inheritance with classes.
+      You cannot extend more than one class at the same time.
+    - Java supports multiple inheritance through interfaces.
+      A class can implement multiple interfaces.
+
+2. Why no multiple inheritance with classes?
+    - To avoid ambiguity problems (like the Diamond Problem)
+      when two parent classes have methods with the same signature.
+    - It keeps the language simpler and avoids conflicts.
+
+-> Multiple class inheritance-❌Not allowed
+-> Multiple interface inheritance-✅Allowed
+-> Interface + single class inheritance-✅Allowed

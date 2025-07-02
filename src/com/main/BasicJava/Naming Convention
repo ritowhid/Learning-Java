@@ -1,0 +1,10 @@
+
+
+
+
+        class and interface: Calc, Runnable
+        variable and method: marks, show()
+        constants: PIE, BRAND
+        Camel casing:: showMyMarks()
+        Snake casing: show_my_marks()
+        Constructor: Human()
