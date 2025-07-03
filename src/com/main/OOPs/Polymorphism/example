@@ -1,0 +1,24 @@
+
+    -> Polymorphism:
+    -> Poly means- many,
+    -> Morphism means- behaviour
+    -> Which means there is something which behaves differently in different situation.
+    -> We have different name on different places, at home you named one,
+       at office you are boss or employee, at class you are student.
+       your name changes at every places and your behavior also changes based on the places.
+    -> In the world of object oriented we have a concept of many behavior polymorphism
+       so the same object or same reference will have different behavior based on how you
+       create the instance of it.
+
+    -> There are 2 types of Polymorphism:
+       i. Compile time polymorphism (also called early binding)
+            - Behavior defined at compile time
+            - Overloading: where you decide based on the parameters at compile time itself
+       ii. Run time polymorphism (also called late binding)
+            - If the behavior will be defined at run time that is called a runtime polymorphism
+            - Overriding: You are not sure which method will be called
+
+    -> When you compile the file and when you know what things
+       will be get executed at the compile time itself, it is compile time.
+
+    -> Which method will be executed will be decided at runtime, that's run time.

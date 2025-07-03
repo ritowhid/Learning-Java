@@ -24,7 +24,7 @@
 
     -> Import a specific class:
        example: import java.util.ArrayList;
-       example: import com.main.OOPs.Method_Overriding;
+       example: import com.main.OOPs.Method_load_ride.Method_Overriding;
 
     -> Whatever in build class you used in Java belongs to a package
     -> But String, System also a class, whenever I use not imported it.
@@ -32,6 +32,6 @@
        If we click Ctrl+ System/String. Go to the class->Go on top-> here package java.lang;
        But we never import it, bcz by default java file imported it.By default(import java.land.*;)
        If we need all the class on a particular package we can put (.*) instead of name of class
-       like: (import com.main.OOPs.*;) instead of (import com.main.OOPs.Method_Overriding;)
+       like: (import com.main.OOPs.*;) instead of (import com.main.OOPs.Method_load_ride.Method_Overriding;)
        * means all the files not all the folder, that's why we have to put all package name,
        it will not work if you put only one package name. If any

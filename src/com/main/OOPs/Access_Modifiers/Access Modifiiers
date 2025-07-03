@@ -1,0 +1,12 @@
+Public -> Which can be accessed from anywhere.
+Private -> Which can be accessed in only same class.
+Default -> which can be accessed in same class,
+           Same package subclass,
+           same package non-subclass,
+           can't accessed in different package subclass,
+           can't accessed in different package non-subclass.
+Protected -> Which can be accessed in same class,
+             same package subclass,
+             same package non-subclass,
+             Different package subclass,
+             can't accessed different package non-subclass.

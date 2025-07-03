@@ -1,4 +1,4 @@
-package com.main.OOPs;
+package com.main.OOPs.This_Super;
 /*
         When you call a parameterized constructor(DerivedClass), the first thing it sees is super(); not the print method.
         super means - call the constructor of the superclass.
@@ -35,7 +35,7 @@ class Y extends X { // DerivedClass class only extends X, X extends Object. so t
     }
 }
 
-public class This_Super {
+public class This_Super_Method {
     public static void main(String[] args) {
         Y obj = new Y(5); // whenever you crate an object, it will call constructor of a class
     }                    // if you don't pass a value here, it will not call the parameterized constructor

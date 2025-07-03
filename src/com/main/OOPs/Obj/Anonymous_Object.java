@@ -1,4 +1,4 @@
-package com.main.OOPs;
+package com.main.OOPs.Obj;
 
 class A{
     public A(){
