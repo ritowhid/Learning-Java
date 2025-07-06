@@ -1,4 +1,4 @@
-package com.main.OOPs.Random;
+package com.main.OOPs.Mixed_Concept;
 
 /* Java provides primitive data types;
  that's the reason java is 99.99 % object-oriented,

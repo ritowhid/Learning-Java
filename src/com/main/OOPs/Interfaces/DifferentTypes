@@ -1,0 +1,48 @@
+
+     Types of Interface.
+     1. Normal
+     2. Functional(also call SAM)
+     3. Marker
+
+     -> All the interface is public & abstract.
+
+     -> Normal: Whenever you have 2 or more methods that's
+        normal interface.
+
+     -> SAM: Single Abstract Method.
+        It refers to an interface that contains only one abstract method.
+        For example, if you have an interface named Abc with only one method,
+        it qualifies as a SAM interface., and we can also call it as a 'Functional' interface.
+        Now why this called functional?
+
+     -> Marker - marker Interface is an empty interface that
+        has no fields or methods.
+        Now why someone will create blank interface?
+        - is to update something to the compiler. So let's
+        say if you want to talk to a compiler by saying please
+        allow this.
+        In java we have this concept of civilization which means
+        - you can take the objects and you can store the values of
+        the object in your hard drive. You want to save this data in
+        the hard drive, and if you want to store this data we can use a
+        concept of serialization, and then you can destroy this object.
+        The thing is why we are saving these object is because what if you
+        want to recreate this object later.
+        Let's say when you're playing a game and
+        when you're playing this game, you want to save the game.
+        Let's say when you're playing this game the game takes around 4gb or
+        5gb in your RAM. But when you save the game it will not consume
+        that much of memory, it will consume around in kbs, it's because when
+        you restart the game after closing it-of course when you start the game
+        you will get a default values. Now if you want the old values you want
+        to resume the game, you will simply load the current stats. So let's say
+        after some time you close the game, the game is no more but you have a file
+        in your hard drive and you just started the game, the value for the
+        Abc will be - 000, what you can do is you can load these values from here,
+        This is called 'deserialization'.
+        So by default every object is not allowed to do that. You have to give the
+        permission, how will you give the permission. So you can simply create a class
+        and you can give the permission with the help of 'Mark' 'interface'
+
+        We have lot of Marker interface in java, serialization ro serializable and many.
+        So whenever you see an interface which is blank, that's a 'Marker' interface.

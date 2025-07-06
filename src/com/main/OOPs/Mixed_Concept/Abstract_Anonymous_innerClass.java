@@ -1,4 +1,4 @@
-package com.main.OOPs.Random;
+package com.main.OOPs.Mixed_Concept;
 
 abstract class Class_A {
     public void show() {
