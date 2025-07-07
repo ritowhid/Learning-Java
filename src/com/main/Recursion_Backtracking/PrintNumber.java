@@ -12,10 +12,8 @@ public class PrintNumber {
     }
     public static void main(String[] args) {
 
-        Scanner in = new Scanner(System.in);
         PrintNumber obj = new PrintNumber();
-        System.out.print("Enter how many num to print: ");
-        int n = in.nextInt();
+        int n =5;
         obj.f(1, n);
     }
 }

@@ -1,6 +1,6 @@
 package com.main.OOPs.Exception_Handling;
 
-public class Exception {
+public class Exception_example {
     public static void main(String[] args) {
         System.out.println();
     }

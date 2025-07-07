@@ -6,7 +6,7 @@ public class Max {
         System.out.println(max(arr));
     }
 
-    // imagine that  arr is not empty
+    // imagine that arr is not empty
     static int max(int[] arr){
         int maxVal = arr[0];
         for (int i = 1; i < arr.length; i++) {
