@@ -1,0 +1,37 @@
+    Java Packages:
+
+    Packages in Java are a mechanism that encapsulates
+    a group of classes, sub-packages, and interfaces.
+    Packages are used for:
+
+    -> Prevent naming conflicts by allowing classes with
+       the same name to exist in different packages, like
+       college.staff.cse.Employee and college.staff.ee.Employee.
+
+    -> They make it easier to organize, locate, and use classes,
+       interfaces, and other components.
+
+    -> Packages also provide controlled access for Protected
+       members that are accessible within the same package
+       and by subclasses.
+
+    -> Also, default members (no access specifier) are
+       accessible only within the same package.
+
+    By grouping related classes into packages, Java promotes data
+    encapsulation, making code reusable and easier to manage.
+    Simply import the desired class from a package to use it in your program.
+
+    -> Import a specific class:
+       example: import java.util.ArrayList;
+       example: import com.main.oops.method_overload_override.Method_Overriding;
+
+    -> Whatever in build class you used in Java belongs to a package
+    -> But String, System also a class, whenever I use not imported it.
+       There is no need to import the package, It's also belongs to a packages.
+       If we click Ctrl+ System/String. Go to the class->Go on top-> here package java.lang;
+       But we never import it, bcz by default java file imported it.By default(import java.land.*;)
+       If we need all the class on a particular package we can put (.*) instead of name of class
+       like: (import com.main.oops.*;) instead of (import com.main.oops.method_overload_override.Method_Overriding;)
+       * means all the files not all the folder, that's why we have to put all package name,
+       it will not work if you put only one package name. If any
