@@ -1,4 +1,4 @@
-package com.main.oops.collection;
+package com.main.collection;
 
 public class Collection_example {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.main.oops.collection;
+package com.main.collection;
 
 import java.util.*;
 
