@@ -6,6 +6,7 @@ import java.util.Map;
 public class Map_Example {
     public static void main(String[] args) {
         Map<String, Integer> std = new HashMap<>(); // if you want to use normal-use HashMap, if you want synchronized version-use Hashtable; better to use when have multiple thread working
+        // The <String, Integer> is the generics.
         std.put("Towhid", 43);
         std.put("Alice", 44);
         std.put("Bob", 49);
