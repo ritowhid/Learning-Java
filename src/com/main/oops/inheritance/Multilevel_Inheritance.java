@@ -1,7 +1,7 @@
 package com.main.oops.inheritance;
 
     /*
-        This is an example of Inheritance and Multilevel Inheritance
+        This is an example.txt of Inheritance and Multilevel Inheritance
         (Multilevel Inheritance: GrandParent → Parent → Child)
     */
 

@@ -8,7 +8,7 @@ package com.main.oops.mixed_concept;
 
  Wrapper class:
  for every primitive type we are going to have
- a class, for example,
+ a class, for example.txt,
  int -> Integer; and this class basically extends the object class
  char -> Character
  double -> Double

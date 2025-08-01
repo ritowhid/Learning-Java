@@ -49,7 +49,7 @@ public class Exception_Handling_MultiTryCatch {
  - You can identify the type of exception using specific catch blocks. If you only catch the general
    `Exception`, then you'll need to manually check the type of `e` using `instanceof` to handle it appropriately.
 
- - A better approach is to use **multiple catch blocks**, each for a specific exception type. For example,
+ - A better approach is to use **multiple catch blocks**, each for a specific exception type. For example.txt,
    one catch block for ArithmeticException and another for ArrayIndexOutOfBoundsException.
 
  - This makes the code more robust and readable, allowing Java to handle each exception type differently.
